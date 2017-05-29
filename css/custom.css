@@ -1,0 +1,86 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    background: #f7f7f7;
+}
+.br {
+    border: 1px solid;
+}
+.controls{
+    background: #EEEEEE;
+    border: 1px solid green;
+}
+ul.controls {
+    margin: 20px;
+    background-color: #EEEEEE;
+    float: left;
+    list-style-type: none;
+}
+.controls ul li {
+    display:inline-block;
+    margin: 0;
+    list-style: none;
+    background: red;
+}
+.controls ul li img {
+    display: block;
+    margin: 0;
+    padding:0;
+}
+
+/*Timeboard*/
+.scoreboard {
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+}
+.timeon {
+    border: 3px solid #ffffff;
+    background: #ddeda6;
+}
+.timeon h2 {
+    color:#286090;
+    font-size: 41px;
+}
+.timeboard {
+    border: 1px solid #e2e2e2;
+}
+.timeboard h2{
+    margin: 10px;
+}
+.fa-circle {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.username {
+    border: 1px solid #e2e2e2;
+    margin-top: 5px;
+}
+.username h4 {
+    padding-left: 10px;
+    color: #747474;
+    margin: 5px;
+}
+.moves {
+    height: 150px;
+    border: 1px solid #e2e2e2;
+    margin-top: 5px;
+    overflow-y:scroll;
+}
+.scores {
+    margin: 2px;
+}
+.scores tr td:nth-child(1){
+    border: 1px solid #e2e2e2;;
+    width: 60px;
+    background:#EEEEEE;
+    color:#707070;
+}
+.scores tr td:nth-child(2){
+    border: 1px solid #e2e2e2;
+    width: 120px;
+    color:#707070;
+}
+.scores tr td:nth-child(3){
+    border: 1px solid #e2e2e2;
+    width: 120px;
+    color:#707070;
+}
