@@ -1,13 +1,14 @@
 body {
-    font-family:'Changa', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
     background: #f7f7f7;
 }
 .br {
     border: 1px solid;
 }
 .controls{
-    background: #EEEEEE;
-    border: 1px solid green;
+    background:#F7F7F7;
 }
 ul.controls {
     margin: 20px;
@@ -19,7 +20,7 @@ ul.controls {
     display:inline-block;
     margin: 0;
     list-style: none;
-    background: #F7F7F7;
+    background-image: url("/images/control.png");
 }
 .controls ul li img {
     display: block;
@@ -45,7 +46,7 @@ ul.controls {
 .timeon h2 {
     color:#707070;
     font-weight: bold;
-    font-family: 'Changa', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 .timeboard {
     margin-top:5px;
@@ -133,41 +134,90 @@ ul.controls {
     display: inline-block;
 }
 
-
+.playercontrols {
+    color: #707070;
+}
 /*Controls*/
 
 /* DivTable.com */
-.divTable1{
-    display: table;
-    width: 100%;
+/*.divTable1{*/
+    /*display: table;*/
+    /*width: 100%;*/
+/*}*/
+/*.divTableRow1 {*/
+    /*display: table-row;*/
+/*}*/
+/*.divTableHeading1 {*/
+    /*background-color: #EEE;*/
+    /*display: table-header-group;*/
+/*}*/
+/*.divTableCell1, .divTableHead1 {*/
+    /*border: 1px solid #edecec;*/
+    /*display: table-cell;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+/*}*/
+/*.divTableHeading1 {*/
+    /*background-color: #EEE;*/
+    /*display: table-header-group;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.divTableFoot1 {*/
+    /*background-color: #EEE;*/
+    /*display: table-footer-group;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.divTableBody1 {*/
+    /*display: table-row-group;*/
+/*}*/
+/*.divTableRow1 .divTableCell1 img {*/
+    /*display: block;*/
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+    /*width:30px;*/
+    /*height:30px;*/
+/*}*/
+.board {
+    margin-top: 5px;
 }
-.divTableRow1 {
+
+/* DivTable.com */
+.divTable2{
+    display: table;
+    width: 300px;
+    border: 1px solid;
+}
+.divTableRow2 {
     display: table-row;
 }
-.divTableHeading1 {
+.divTableHeading2 {
     background-color: #EEE;
     display: table-header-group;
 }
-.divTableCell1, .divTableHead1 {
-    border: 1px solid #999999;
+.divTableCell2, .divTableHead2 {
     display: table-cell;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/control.png");
+    background-repeat: no-repeat;
 }
-.divTableHeading1 {
+.divTableHeading2 {
     background-color: #EEE;
     display: table-header-group;
     font-weight: bold;
 }
-.divTableFoot1 {
+.divTableFoot2 {
     background-color: #EEE;
     display: table-footer-group;
     font-weight: bold;
 }
-.divTableBody1 {
+.divTableBody2 {
     display: table-row-group;
 }
-.divTableRow1 .divTableCell1 img {
-    display: block;
-    margin: auto;
+.divTableRow2 .divTableCell2 i {
+display: block;
+margin-left:auto;
+margin-right:auto;
+width:30px;
+height:30px;
 }
